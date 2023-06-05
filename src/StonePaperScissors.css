@@ -1,0 +1,113 @@
+.stone-paper-scissors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .choices {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 40px;
+  }
+  
+  .choice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    font-size: 48px;
+    font-weight: bold;
+    background-color: #61dafb;
+    color: #222;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .choice.stone {
+    color: #f44336;
+  }
+  
+  .choice.paper {
+    color: #9c27b0;
+  }
+  
+  .choice.scissors {
+    color: orange;
+  }
+  
+  .choice span {
+    font-size: 32px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .choice-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #61dafb;
+    color: #222;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .choice-button.stone {
+    color: #f44336;
+  }
+  
+  .choice-button.paper {
+    color: #9c27b0;
+  }
+  
+  .choice-button.scissors {
+    color: orange;
+  }
+  
+  .choice-button:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .result {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .result p {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: orange;
+  }
+  
